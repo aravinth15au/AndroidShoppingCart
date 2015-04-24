@@ -1,0 +1,3 @@
+XML input is assumed to be valid.
+XML input is assumed to be present in root directory of sdcard.
+Input quantity and inventory data is assumed to contain valid data types.

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Inventory App</string>
+	<string name="yes">View cart</string>
+	<string name="no">Stay here</string>
+	<string name="chk">Please input the quantity required </string>
+	<string name="error_unspecied">Unspecified error.</string>
+	<string name="added">Product added to cart</string>
+	<string name="notadded">Please enter quantity not greater than available quantity</string>
+	<string name="checkout">Checkout</string>
+	<string name="list_title">Cart List</string>
+	<string name="cart_title">Cart</string>
+	<string name="order_confirmation">Order Confirmation</string>
+	<string name="inventory">Inventory</string>
+	<string name="cartempty">Cart is empty</string>
+	<string name="clear">Clear cart</string>
+	<string name="order">Orders</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+   
+    <ListView  
+        android:id="@+id/android:list"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content" >  
+  
+    </ListView>  
+   <TableLayout 
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:stretchColumns="1">
+       <TableRow>
+		<TextView style="@style/formFieldLabel" android:text="" />
+		<LinearLayout android:orientation="horizontal" style="@style/formField">
+			<Button android:id="@+id/checkout" style="@style/formField"
+				android:text="@string/checkout" />
+			<Button android:id="@+id/checkout1" style="@style/formField"
+				android:text="@string/clear" />
+		</LinearLayout>
+	</TableRow> 
+</TableLayout>
+</LinearLayout>
